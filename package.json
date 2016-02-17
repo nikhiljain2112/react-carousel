@@ -1,8 +1,8 @@
 {
-  "name": "Generator-with-Browserify",
+  "name": "react-carousel",
   "version": "0.0.1",
-  "description": "Base project setup using browserify",
-  "author": "Kevin Chapman",
+  "description": "carousel using react js",
+  "author": "nikhil jain",
   "license": "",
   "dependencies": {},
   "devDependencies": {
