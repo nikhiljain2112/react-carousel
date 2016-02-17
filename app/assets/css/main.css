@@ -1,0 +1,82 @@
+div#carousel {
+    width: 70%;
+    padding-top: 4%;
+    margin: auto;
+    position: relative;
+}
+.slideshow {
+    margin: auto;
+}
+.slides {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.slide {
+    display: none;
+}
+.slide.slide--active {
+    display: block;
+}
+.controls .arrow {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+}
+.arrow_prev {
+    left: 0;
+    background-image: url(../img/arrow_left.png);
+}
+.arrow_next {
+    right: 0;
+    background-image: url(../img/arrow_right.png);
+}
+.pagination {
+    margin: 20px;
+    text-align: center;
+}
+.pager {
+    background-color: black;
+    display: inline-block;
+    height: 20px;
+    margin: 10px;
+    overflow: hidden;
+    text-indent: -9000px;
+    white-space: nowrap;
+    width: 20px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.caption_div {
+    position: absolute;
+    height: 70px;
+    top: 76%;
+    width: 99%;
+    margin: auto;
+    border: #solid 10px #000;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+    font-style: normal;
+    color: #FFF;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.activeImage {
+    background-color: #F0B428;
+    display: inline-block;
+    height: 20px;
+    margin: 10px;
+    overflow: hidden;
+    text-indent: -9000px;
+    white-space: nowrap;
+    width: 20px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
